@@ -13,6 +13,8 @@
 		E7734E27253F45F80025D504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7734E26253F45F80025D504 /* Assets.xcassets */; };
 		E7734E2A253F45F80025D504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7734E29253F45F80025D504 /* Preview Assets.xcassets */; };
 		E7734E2D253F45F80025D504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7734E2B253F45F80025D504 /* LaunchScreen.storyboard */; };
+		E7734E35253F4DEE0025D504 /* ColorRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7734E34253F4DEE0025D504 /* ColorRectangle.swift */; };
+		E7734E37253F51ED0025D504 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7734E36253F51ED0025D504 /* CustomSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E7734E29253F45F80025D504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7734E2C253F45F80025D504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7734E2E253F45F80025D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7734E34253F4DEE0025D504 /* ColorRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRectangle.swift; sourceTree = "<group>"; };
+		E7734E36253F51ED0025D504 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				E7734E26253F45F80025D504 /* Assets.xcassets */,
 				E7734E2B253F45F80025D504 /* LaunchScreen.storyboard */,
 				E7734E2E253F45F80025D504 /* Info.plist */,
+				E7734E34253F4DEE0025D504 /* ColorRectangle.swift */,
+				E7734E36253F51ED0025D504 /* CustomSlider.swift */,
 				E7734E28253F45F80025D504 /* Preview Content */,
 			);
 			path = SlidersSwiftUI;
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7734E21253F45F50025D504 /* AppDelegate.swift in Sources */,
+				E7734E37253F51ED0025D504 /* CustomSlider.swift in Sources */,
 				E7734E23253F45F50025D504 /* SceneDelegate.swift in Sources */,
 				E7734E25253F45F50025D504 /* ContentView.swift in Sources */,
+				E7734E35253F4DEE0025D504 /* ColorRectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
